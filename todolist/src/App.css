@@ -1,0 +1,84 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.create_form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.task-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px; 
+}
+.completed {
+  background-color: lightgreen;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+.task-container {
+  display: flex; 
+  align-items: center; 
+}
+
+.complete-button, .delete-button {
+  margin-right: 10px; 
+}
+
+.completed-task {
+  flex-grow: 1; 
+}
+
+.complete-button, .delete-button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.complete-button:hover {
+  background-color: green;
+}
+
+.delete-button:hover {
+  background-color: red;
+}
+.edit-button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-right: 10px; 
+}
+
+.edit-button:hover {
+  background-color: blue;
+}
+.task-content {
+  margin-bottom: 10px; /* Add margin below the task content */
+}
+
+.task-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.task-buttons button {
+  margin-right: 5px; /* Adjust margin between buttons */
+}
